@@ -1,5 +1,5 @@
 exports.sync = function (store, router, options) {
-  const moduleName = (options || {}).moduleName || 'route'
+  const moduleName = (options || {}).moduleName || 'route'ddd
 
   store.registerModule(moduleName, {
     namespaced: true,
